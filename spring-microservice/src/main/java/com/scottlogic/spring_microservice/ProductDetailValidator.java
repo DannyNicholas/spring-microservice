@@ -12,7 +12,6 @@ public class ProductDetailValidator implements Validator {
 	@Autowired
 	public ProductDetailValidator(InventoryService inventoryService) {
 		this.inventoryService = inventoryService;
-		System.out.println("HERE!");
 	}
 
 	@Override
